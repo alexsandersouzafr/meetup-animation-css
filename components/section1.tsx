@@ -10,7 +10,12 @@ import gsap from "gsap";
 import { cn } from "@/lib/utils";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const illustrations = [<Check />, <Abas />, <ProgressBar />, <Accordeons />];
+const illustrations = [
+  <Check key={1} />,
+  <Abas key={2} />,
+  <ProgressBar key={3} />,
+  <Accordeons key={4} />,
+];
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Section1() {
