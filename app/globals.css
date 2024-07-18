@@ -2,32 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.check {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.progress-bar {
+  clip-path: rect(0px 100% 0% 0px);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.exemplo-hover {
+  margin: auto auto;
+  width: fit-content;
+  border-radius: 1rem;
+  border: 1px solid white;
+  background-color: white;
+  padding: 1rem 2rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: bold;
+  color: #172554;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.exemplo-open-me {
+  margin: auto 0;
+  display: inline-flex;
+  width: 100%;
+  max-width: 16rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  gap: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #023047;
+}
+
+.ball {
+  border-radius: 100%;
+  background: black;
+  height: 100px;
+  width: 100px;
 }
