@@ -53,7 +53,7 @@ export default function ProgressBar() {
       className="relative flex flex-col items-center justify-center opacity-0"
       ref={scope}
     >
-      <div className="progress-bar flex h-10 w-[300px] items-center justify-center bg-white">
+      <div className="progress-bar flex h-10 w-[600px] items-center justify-center bg-white">
         <p className="message flex gap-4 font-bold text-red-600 opacity-0">
           REQUISIÇÃO CONCLUÍDA
         </p>

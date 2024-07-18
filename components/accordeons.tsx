@@ -58,7 +58,7 @@ export default function Accordeons() {
   return (
     <ul
       ref={scope}
-      className="flex h-[600px] w-[300px] flex-col gap-4 overflow-hidden rounded-xl border border-white p-4 [&>li]:rounded-xl [&>li]:border [&>li]:p-4"
+      className="flex h-[600px] w-[400px] flex-col gap-4 overflow-hidden rounded-xl border border-white p-4 [&>li]:rounded-xl [&>li]:border [&>li]:p-4"
     >
       <li className="flex flex-col">
         <div className="flex w-full items-center justify-between font-bold">

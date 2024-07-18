@@ -70,7 +70,7 @@ export default function Section1() {
   return (
     <div
       ref={scope}
-      className="flex h-screen items-center justify-center gap-16 bg-red-600 text-white"
+      className="flex h-screen w-screen items-center justify-center gap-16 bg-red-600 text-white"
     >
       <div className="flex h-screen flex-col justify-center">
         <h1 className="text-5xl font-bold">POR QUE ANIMAR?</h1>

@@ -38,7 +38,7 @@ export default function Section5() {
   return (
     <section
       ref={scope}
-      className="bg-blue-950-500 flex h-screen w-full items-center bg-yellow-600 text-black"
+      className="bg-blue-950-500 flex h-screen w-full items-center bg-yellow-500 text-black"
     >
       <div className="container flex flex-col items-start justify-center gap-8 text-xl">
         <h1 className="card text-5xl">ANIMATION</h1>
@@ -54,7 +54,7 @@ export default function Section5() {
           </p>
         </div>
         <div className="grid w-full grid-cols-2 gap-16">
-          <ul className="card list-disc space-y-6 pl-8 text-4xl">
+          <ul className="card list-disc space-y-6 rounded-xl border border-black p-8 pl-16 text-2xl">
             {propriedades.map((item, i) => (
               <li key={i}>{item}</li>
             ))}

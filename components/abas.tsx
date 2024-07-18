@@ -70,11 +70,11 @@ export default function Abas() {
 
   return (
     <div
-      className="flex h-[600px] w-[300px] flex-col rounded-xl border border-white p-4"
+      className="flex h-[600px] w-[400px] flex-col rounded-xl border border-white p-4"
       ref={scope}
     >
       <h1 className="mb-4">My App</h1>
-      <div className="*relative grid grid-cols-4 justify-between gap-[1px] text-white *:rounded-t-lg *:bg-red-950 *:px-4 *:py-2 *:text-sm *:font-bold *:transition-all *:duration-500 *:ease-out">
+      <div className="grid grid-cols-4 justify-between gap-[1px] text-white *:rounded-t-lg *:bg-red-950 *:px-4 *:py-2 *:text-sm *:font-bold *:transition-all *:duration-500 *:ease-out">
         <div
           data-active={tabState.tab1}
           className="data-[active=true]:bg-white data-[active=true]:text-red-500"
